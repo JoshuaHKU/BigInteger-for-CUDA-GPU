@@ -36,7 +36,7 @@ primitives including modular exponentiation, multiplicative inverse (modular), a
    ./test_gpubigint
    ```
 
-Reference: https://github.com/bingshen/cuda-bigint
+This project is a simplification and improvement of Project  https://github.com/bingshen/cuda-bigint. I would like to express my gratitude to the author.
 
 #--------------------------------------------------------------------------------------
 # cuda-bigint
