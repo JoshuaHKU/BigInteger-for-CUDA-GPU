@@ -18,7 +18,7 @@ primitives including modular exponentiation, multiplicative inverse (modular), a
 ## Code Structure
 
 - `cuda_bigint.h`  
-  Core data structures and algorithm implementations for big integers, including the KernelBigInt and GPUBigInt classes and all high-precision arithmetic functions.
+  Core data structures and algorithm implementations for big integers, including the CUDA_GPUBigInt struct and GPUBigInt classes and all high-precision arithmetic functions.
 - `test_gpubigint.cu`  
   Functional tests for big integer operations on the GPU, including addition, subtraction, multiplication, division, modulo, multiplicative inverse, etc., to verify correctness and performance on CUDA devices.
 
@@ -58,9 +58,9 @@ Reference: https://github.com/bingshen/cuda-bigint
 ## 代码结构
 
 - `cuda_bigint.h`  
-  大整数核心数据结构与算法实现，包括 KernelBigInt、GPUBigInt 类及所有高精度运算函数。
+  大整数核心数据结构与算法实现，包含CUDA_GPUBigInt结构、GPUBigInt 类及所有大整数运算相关功能函数。把此文件直接加入GPU项目并引用此头文件即可直接使用。
 - `test_gpubigint.cu`  
-  GPU 端大整数运算的功能测试，包括加减乘除、模运算、乘法逆元等典型用例，验证 CUDA 设备端的正确性和性能。
+  对cuda_bigint.h内实现的GPUBingInt类及相关大整数运算函数的测试，包括在GPU的设备上实现实例的创建、赋值、加减乘除、模运算、乘法逆元等典型用例。
 
 
 ## 快速开始
