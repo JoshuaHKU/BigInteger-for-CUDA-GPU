@@ -18,8 +18,7 @@ primitives including modular exponentiation, multiplicative inverse (modular), a
 ## Code Structure
 
 - `cuda_bigint.h`  
-  Core Implementation of Big Integer Data Structures and Algorithms​​.Includes CUDA_GPUBigInt struct, GPUBigInt class, and all related big integer arithmetic functions.
-  ​​Usage​​: Simply add this file to your GPU project and include the header to use full functionality.
+  Core Implementation of Big Integer Data Structures and Algorithms​​.Includes CUDA_GPUBigInt struct, GPUBigInt class, and all related big integer arithmetic functions.​​​Simply add this file to your GPU project and include the header to use full functionality.
 - `test_gpubigint.cu`  
   Functional tests for big integer operations on the GPU, including addition, subtraction, multiplication, division, modulo, multiplicative inverse, etc., to verify correctness and performance on CUDA devices.
 
