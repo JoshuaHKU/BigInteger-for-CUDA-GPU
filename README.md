@@ -60,7 +60,7 @@ Reference: https://github.com/bingshen/cuda-bigint
 - `cuda_bigint.h`  
   大整数核心数据结构与算法实现，包含CUDA_GPUBigInt结构、GPUBigInt 类及所有大整数运算相关功能函数。把此文件直接加入GPU项目并引用此头文件即可直接使用。
 - `test_gpubigint.cu`  
-  对cuda_bigint.h内实现的GPUBingInt类及相关大整数运算函数的测试，包括在GPU的设备上实现实例的创建、赋值、加减乘除、模运算、乘法逆元等典型用例。
+  对cuda_bigint.h内实现的GPUBingInt 类及相关大整数运算函数的测试，包括在GPU的设备上实现实例的创建、赋值、加减乘除、模运算、乘法逆元等典型用例。
 
 
 ## 快速开始
