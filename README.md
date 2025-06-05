@@ -2,7 +2,9 @@
 
 ## Project Overview
 
-`cuda-bigint` is a high-performance big integer arithmetic library based on CUDA, supporting high-precision integer addition, subtraction, multiplication, division, modulo, comparison, modular exponentiation, and bitwise operations on the GPU. The project aims to provide efficient GPU-side big integer operations as a foundation for cryptographic algorithms such as RSA and ECC.
+`cuda-bigint` A lightweight CUDA library for high-performance big integer arithmetic on GPUs.​​ 
+Provides core operations (addition, subtraction, multiplication, division) and essential cryptographic 
+primitives including modular exponentiation, multiplicative inverse (modular), and bitwise shifts.
 
 ## Main Features
 
